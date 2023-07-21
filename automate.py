@@ -33,7 +33,7 @@ if(not current_url == "https://clnx.utoronto.ca/myAccount/dashboard.htm"):
     user_name_field.send_keys(userName)
     
     #Step 4.2: Enter Password
-    password = "Victor928@"
+    password = ""
     password_field = wait.until(EC.presence_of_element_located((By.ID, "password" )))
     password_field.send_keys(password)
     
